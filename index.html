@@ -1,0 +1,176 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Grace Hopper Information</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Do not edit the bootstrap files! -->
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Make your edits in the main.css file. -->
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Grace Hopper Info</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+
+                <form class="navbar-form navbar-right" role="form" id="logout-form">
+                    <a class="btn btn-default btn-sm" id="Logout-btn">Logout</a>
+                </form>
+
+                <div class="navbar-right user-info">
+                    Welcome, <span class="user-fullname">First Last</span>
+                    <a class="btn btn-default btn-sm">Logout</a>
+                </div>
+
+                <form name="login_form" class="navbar-form navbar-right" role="form" id="login-form">
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="Email" id="Email" required placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="Password_1" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
+                    </div>
+                    <!-- <button type="submit" class="btn btn-default btn-sm" id="Login-btn">Login</button>  -->
+                    <a class="btn btn-default btn-sm" data-toggle="tooltip" id="Login-btn">Login</a>
+                </form>
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+
+        <div class="container">
+            <h1>Grace Murray Hopper</h1>
+            <p class="bio-dates">December 9, 1906 – January 1, 1992</p>
+            <p class="details">
+                <img class="pull-right img-thumbnail" src="img/grace-hopper-and-univac.jpg"> Grace Hopper was an American computer scientist and United States Navy rear admiral. She was one of the first programmers of the Harvard Mark I computer in 1944, and invented the first compiler for a computer programming language, and the one of those who popularized the idea of machine-independent programming languages, which led to the development of COBOL, one of the first high-level programming languages. She is credited with popularizing the term "debugging" for fixing computer glitches (inspired by an actual moth removed from the computer). Owing to the breadth of her accomplishments and her naval rank, she is sometimes referred to as "Amazing Grace". The U.S. Navy Arleigh Burke class guided-missile destroyer USS Hopper (DDG-70) is named for her, as was the Cray XE6 "Hopper" supercomputer at NERSC.
+            </p>
+            <p>
+                <a class="btn btn-primary btn-lg view-details" href="#" role="button">Learn more &raquo;</a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="container highlights">
+
+        <div class="debugging">
+            <h2>Debugging</h2>
+            <p class="teaser">Hopper was known for popularizing the term "bug" in software development.</p>
+            <p class="details"><img class="pull-right img-thumbnail" src="img/bug.jpg">While she was working on a Mark II Computer at a US Navy research lab in Dahlgren, Virginia in 1947, her associates discovered a moth stuck in a relay and thereby impeding operation, whereupon she remarked that they were "debugging" the system. Though the term bug had been in use for many years in engineering to refer to small glitches and inexplicable problems, Admiral Hopper did bring the term into popularity. The remains of the moth can be found in the group's log book at the Smithsonian Institution's National Museum of American History in Washington, D.C.</p>
+            <p><a class="btn btn-default view-details" role="button">View details &raquo;</a></p>
+        </div>
+        <hr>
+
+        <div class="quotes">
+            <h2>Quotes</h2>
+            <p class="teaser">Hopper was immensely quotable, and well-known for her energetic and engaging talks.</p>
+            <div class="details">
+                <img class="pull-right img-thumbnail" src="img/hopper_speaking.jpg"> Here are three of her most famous quotes:
+                <blockquote>The most important thing I've accomplished, other than building the compiler, is training young people. They come to me, you know, and say, 'Do you think we can do this?' I say, "Try it." And I back 'em up. They need that. I keep track of them as they get older and I stir 'em up at intervals so they don't forget to take chances.</blockquote>
+                <blockquote>It's easier to ask forgiveness than it is to get permission.</blockquote>
+                <blockquote>You manage things; you lead people.</blockquote>
+            </div>
+            <p><a class="btn btn-default view-details" role="button">View details &raquo;</a></p>
+        </div>
+        <hr>
+
+        <div class="awards">
+            <h2>Awards &amp; Recognition</h2>
+            <p class="teaser">Hopper received many awards and accolades throughout and after her lifetime.</p>
+            <img class="pull-right img-thumbnail details" src="img/commodore_hopper.jpg">
+            <ul class="awards-list details">
+                <li>1969: Hopper was awarded the inaugural Computer Sciences Man of the Year award from the Data Processing Management Association.</li>
+                <li>1971: The annual Grace Murray Hopper Award for Outstanding Young Computer Professionals was established in 1971 by the Association for Computing Machinery.</li>
+                <li>1973: First American and the first woman of any nationality to be made a Distinguished Fellow of the British Computer Society.</li>
+                <li>1982: American Association of University Women Achievement Award and an Honorary Doctor of Science from Marquette University.</li>
+                <li>1985: Honorary Doctor of Letters from Western New England College (now Western New England University).</li>
+                <li>1986: Upon her retirement, she received the Defense Distinguished Service Medal.</li>
+                <li>1987: The first Computer History Museum Fellow Award Recipient "for contributions to the development of programming languages, for standardization efforts, and for lifelong naval service."</li>
+                <li>1988: Golden Gavel Award at the Toastmasters International convention in Washington, DC.</li>
+                <li>1991: National Medal of Technology.</li>
+                <li>1991: Elected a Fellow of the American Academy of Arts and Sciences.</li>
+                <li>1996: USS Hopper (DDG-70) was launched. Nicknamed Amazing Grace, it is on a very short list of U.S. military vessels named after women.</li>
+                <li>2001: Eavan Boland wrote a poem dedicated to Grace Hopper titled "Code" in her 2001 release Against Love Poetry.</li>
+                <li>2001: The Gracies, the Government Technology Leadership Award were named in her honor.</li>
+                <li>2009: The Department of Energy's National Energy Research Scientific Computing Center named its flagship system "Hopper".</li>
+                <li>2009: Office of Naval Intelligence creates the Grace Hopper Information Services Center.</li>
+            </ul>
+            <p><a class="btn btn-default view-details" role="button">View details &raquo;</a></p>
+        </div>
+        <hr>
+
+        <div class="voting">
+            <h2>Vote for Grace Hopper</h2>
+            <p class="lead">Was Grace Hopper a great software developer? Or the greatest software developer of all-time?</p>
+            <div class="voting-buttons text-center">
+                <button class="btn btn-primary btn-lg vote" data-vote="great">Great!</button>
+                <button id="greatestbtn" class="btn btn-primary btn-lg vote" data-vote="greatest">Greatest of All-Time!</button>
+                <span id="voting-completed"> <i class="fa fa-thumbs-up"></i></span>
+            </div>
+
+            <h3 class="text-primary">Results</h3>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info great-progress" style="width: 0%">Great!</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success greatest-progress" style="width: 0%">Greatest of All-Time!</div>
+            </div>
+        </div>
+        <hr>
+
+        <footer>
+            <p>The text and images on this page come from the <a href="http://en.wikipedia.org/wiki/Grace_Hopper">Wikipedia entry for Grace Hopper</a>. All content used under a Creative Commons Attribution-Share Alike license. </p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./js/main.js"></script>
+
+</body>
+
+</html>

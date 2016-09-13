@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.user-info {
+    display: none;
+}
+
+.details {
+    display: block;
+}
+
+.user-info a {
+    display: none;
+}
+
+.error {
+    color: white;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    position: absolute;
+    top: 8px;
+}
+
+form btn-default {
+    display: none;
+}
+
+.form-control {
+    height: 25px;
+}
+
+.jumbotron img {
+    margin: 0.5em;
+    width: 45%;
+    height: auto;
+}
+
+.highlights hr {
+    display: block;
+    clear: both;
+}
+
+.highlights img {
+    margin: 0.5em;
+    width: 25%;
+}
+
+.voting .voting-buttons {
+    margin: 1em 0;
+}
+
+nav {
+    height: 80px;
+    padding-top: 25px;
+}
+
+#tooltip_container {
+    color: #FFF;
+    position: absolute;
+    padding: 20px;
+    max-width: 200px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 12px;
+}
+
+#tooltip2 {
+    text-decoration: none;
+    color: white !important;
+}
+
+#tooltip2:hover {
+    color: deepskyblue !important;
+}
+
+#logout-form {
+    display: none;
+}
+
+#voting-completed i {
+    font-size: 10px;
+}
+
+.fa-thumbs-up {
+    font-size: 10rem !important;
+}
+
+.voting-buttons {
+    position: relative;
+}
+
+#voting-completed {
+    position: absolute;
+    float: none;
+    top: -45%;
+    left: 90%;
+    visibility: hidden;
+}
